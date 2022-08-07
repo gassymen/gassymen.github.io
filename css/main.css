@@ -1,0 +1,437 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+   @media all and (orientation: landscape) {}
+.footer2 {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+body {
+    background: #f8f8f8;
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+a:visited, a:link, a:active {
+    /*color: #333;*/
+    text-decoration: underline;
+	font-weight: bold;
+}
+/*a:hover {
+    color: #0070c9;
+}*/
+.header-container {
+    border-bottom: 1px solid #e8e8e8;
+}
+.logoC {
+    margin: 2em 0 0 0;
+	text-align: center;
+}
+.logo {
+    width: 88px;
+    height: auto;
+    opacity: .7;
+}
+.main-container {
+    background: #fcfcfc;
+}
+.footer-container {
+    border-top: 1px solid #e8e8e8;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+.footerL {
+    margin: 0.6em;
+}
+.ic {
+    margin: 0 1em 1em 1em;
+    width: auto;
+    height: 25px;
+}
+.footer-container img.ic:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.devC {
+    display: flex;
+    flex-wrap: wrap;
+}
+.devW {
+    float:left;
+    margin: auto;
+}
+.dev {
+    border: 0px;
+    border-radius: 15px;
+    padding: 6px 5px 6px 5px;
+    background: #000;
+    max-width: 280px;
+    min-width: 210px;
+    margin: 0 8px 20px 8px;
+}
+.devT {
+    margin: 1em 13px 0 13px;
+    text-align: center;
+}
+.dot {
+    width: 100%;
+    min-width: 210px;
+    height: 0px;
+    margin: 0;
+    float: left;
+}
+.rImg {
+    width: 100%;
+    height: auto;
+}
+.badge {
+    margin-top: 0.5em;
+    width: 160px;
+    height: auto;
+}
+img.rImg {
+    border-radius: 10px;
+}
+.like {
+	margin: 3em 0 2.5em 0;
+}
+.sharing {
+	border-radius: 5px;
+	font-size: 15px;
+    padding: 5px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 0.25em;
+}
+.sharing:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.sharing:visited, .sharing:link, .sharing:active {
+    color: #fff; 
+    text-decoration: none;
+}
+.facebook {
+	background-color: #4267b2;
+    padding: 8px 10px;
+}
+.twitter {
+	background-color: #55acee;
+}
+.pinterest {
+	background-color: #bd081c;
+}
+.reddit {
+	background-color: #ff2f03;
+}
+.google {
+	background-color: #f43e28;
+}
+.tumblr {
+	background-color: #35465C;
+}
+.line {
+    display: none;
+	background-color: #3ed037;
+}
+.icon-facebook {
+	width: 15px;
+	height: auto;
+	margin: -3px 2px 0 0;
+}
+.icon {
+	width: 20px;
+	height: auto;
+	margin: -4px 0 0 0;
+}
+.chinese {
+    display: none;
+}
+.qzone {
+	background-color: #2b82d9;
+}
+.weibo {
+	background-color: #fdd12e;
+}
+.renren {
+	background-color: #ccc;
+}
+.douban {
+	background-color: #007611;
+}
+.russian {
+    display: none;
+}
+.vk {
+	background-color: #507299;
+}
+.okru {
+	background-color: #ff5f00;
+}
+/*.press {
+    font-size: 0.8em;
+    margin: 2.5em 0 1.5em 0;
+}*/
+/* .button {
+    background-color: #aaa;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.button1 {
+    background-color: white; 
+    color: #888; 
+    border: 2px solid #aaa;
+    border-radius: 9px;
+}
+.button:hover {
+    background-color: #aaa;
+    color: white;
+} */
+.button {
+    background-color: white;
+    color: #bbb;
+    border: 2px solid #e6e6e6;
+    border-radius: 9px;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:visited, .button:link, .button:active {
+    color: #bbb; 
+    text-decoration: none;
+}
+.title {
+    font-family: 'Crete Round', 'Schoolbell', 'Merriweather', 'Shadows Into Light', cursive;
+    font-size: 2.1em;
+    /* font-weight: 900; */
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 20px 0;
+}
+
+/* .main article h1 {
+    font-size: 2em;
+} */
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .devs {
+        width: 640px;
+    }
+.top {
+    display: none !important;
+    visibility: hidden;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main phone {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+    .devs {
+        width: 620px;
+    }
+    .text {
+        width: 691px; /* 768 - 10% for margins. Maximal Width */
+    }
+    /* .main article {
+        float: left;
+        width: 85%;
+    } */
+}
+
+@media only screen and (min-width: 980px) {
+    .devs {
+        width: 930px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins. Maximal Width */
+    }
+    .devs {
+        width: 930px;
+    }
+    .text {
+        width: 768px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
